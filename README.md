@@ -172,7 +172,8 @@ Value Index = Real Per Capita Income / RPP All Items * 100
 
 # Project Structure
 ```
-/data/raw/               (zips + extracted CSVs; don’t commit huge files if massive)
+/data/raw/
+  MARPP_MSA_2008_2023.csv
 /sql/
   00_setup.sql
   01_raw_load_notes.md   (or .sql if using BULK INSERT)
