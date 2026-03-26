@@ -169,20 +169,6 @@ A simple affordability / purchasing power proxy:
 ```text
 Value Index = Real Per Capita Income / RPP All Items * 100
 ```
-
-# Project Structure
-```
-/data/raw/
-  MARPP_MSA_2008_2023.csv
-/sql/
-  00_setup.sql
-  01_raw_load_notes.md   (or .sql if using BULK INSERT)
-  02_staging.sql
-  03_dimensions.sql
-  04_facts.sql
-  05_mart_views.sql
-  06_quality_checks.sql
-/tableau/
-  usa_qol.twbx
-README.md
-```
+..
+..
+TBD
