@@ -1,7 +1,4 @@
-# tableau-sql-world-happiness-project
-World Happiness × Cost of Living: Postgres views + Tableau dashboards highlighting trends, drivers, and best value countries.
-
-# US Metro Affordability & Housing Shock (2008–2023)
+# US Metro Affordability & Housing Shock (2008–2023) / Tableau + MS SQL
 
 SQL Server + Tableau portfolio project analyzing how housing-driven cost shifts reshaped affordability and purchasing power across U.S. metropolitan areas from **2008 to 2023** using **BEA Regional Price Parities (RPP)** data.
 
