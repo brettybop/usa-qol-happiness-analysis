@@ -1,4 +1,4 @@
-# US Metro Affordability & Housing Shock (2008–2023) / Tableau + MS SQL
+# 🏘️ US Metro Affordability & Housing Shock (2008–2023) / Tableau + MS SQL
 
 SQL Server + Tableau portfolio project analyzing how housing-driven cost shifts reshaped affordability and purchasing power across U.S. metropolitan areas from **2008 to 2023** using **BEA Regional Price Parities (RPP)** data.
 
