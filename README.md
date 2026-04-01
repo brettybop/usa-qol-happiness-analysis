@@ -21,6 +21,10 @@ This project was built to explore metro-level affordability in a way that goes b
 
 The result is a Tableau workbook with **3 interactive dashboards** supported by a structured **SQL Server semantic layer**.
 
+### Dashboard Link Below 👇
+
+[US Metro QoL Public Tableau Dashboard](https://public.tableau.com/views/usa_qol_flagship_FINAL/00-ProjectOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ---
 
 ## Dashboards
