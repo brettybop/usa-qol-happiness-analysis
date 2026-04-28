@@ -192,13 +192,7 @@ A quadrant-style metro classification built from yearly medians:
 ## 📁 Repository Structure
 ```text
 ├── README.md
-├── sql/
-│   ├── 00_setup.sql
-│   ├── 01_raw_import_notes.sql
-│   ├── 02_staging_views.sql
-│   ├── 03_mart_views.sql
-│   ├── 04_analysis_views.sql
-│   └── 05_tableau_dataset_view.sql
+├── see sql folder/
 ├── tableau/
 │   ├── us_metro_affordability.twbx
 └── source/
