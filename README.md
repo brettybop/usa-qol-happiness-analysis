@@ -27,12 +27,12 @@ The result is a Tableau workbook with **3 interactive dashboards** supported by 
 
 ---
 
-## Dashboards
+## 🗐 Dashboards
 
-### 00 – Project Overview
+### 📄 00 – Project Overview
 A landing page that introduces the project, explains the methodology in plain English, and provides navigation to the 3 analytical dashboards.
 
-### D1 – Housing Shock & Affordability (2019–2023)
+### 📄 D1 – Housing Shock & Affordability (2019–2023)
 Shows which metros experienced the largest changes in cost-of-living from **2019 to 2023**, with a specific focus on whether those changes were **housing-driven**.
 
 **Key visuals:**
@@ -40,7 +40,7 @@ Shows which metros experienced the largest changes in cost-of-living from **2019
 - Top Value Losers
 - Top Value Winners
 
-### D2 – Value Quadrant (2023)
+### 📄 D2 – Value Quadrant (2023)
 A quadrant-style dashboard that compares metros by:
 - **Cost of living**
 - **Real per capita income**
@@ -52,7 +52,7 @@ This view helps identify metros that fall into categories like:
 - Low Income / Low Cost
 - Low Income / High Cost
 
-### D3 – Metro Explorer
+### 📄 D3 – Metro Explorer
 An interactive metro selector that allows the user to:
 - Search and select a metro area
 - View long-term macro trends from **2008–2023**
@@ -74,7 +74,7 @@ This project was designed to answer the following questions:
 
 ---
 
-## Data Source
+## 📊 Data Source
 
 ### Primary Source
 **U.S. Bureau of Economic Analysis (BEA)**  
@@ -146,7 +146,7 @@ This layer powers all dashboard calculations and avoids doing heavy logic direct
 
 ---
 
-## Core Metrics
+## 📈 Core Metrics
 
 ### RPP (All Items)
 A metro-level price index where **100 = U.S. average**.
@@ -191,3 +191,24 @@ High Income / Low Cost
 High Income / High Cost
 Low Income / Low Cost
 Low Income / High Cost
+
+## 📁 Repository Structure
+```text
+├── README.md
+├── sql/
+│   ├── 00_setup.sql
+│   ├── 01_raw_import_notes.sql
+│   ├── 02_staging_views.sql
+│   ├── 03_mart_views.sql
+│   ├── 04_analysis_views.sql
+│   └── 05_tableau_dataset_view.sql
+├── tableau/
+│   ├── us_metro_affordability.twbx
+│   └── screenshots/
+│       ├── 00_overview.png
+│       ├── d1_housing_shock.png
+│       ├── d2_value_quadrant.png
+│       └── d3_metro_explorer.png
+└── docs/
+    └── metrics.md
+```
