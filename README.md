@@ -10,7 +10,7 @@ This project focuses on three core questions:
 
 ---
 
-## Project Overview
+## 🎯 Project Overview
 
 This project was built to explore metro-level affordability in a way that goes beyond simple “expensive vs cheap” rankings. Instead of looking only at cost-of-living, this analysis combines:
 
