@@ -201,13 +201,8 @@ A quadrant-style metro classification built from yearly medians:
 │   └── 05_tableau_dataset_view.sql
 ├── tableau/
 │   ├── us_metro_affordability.twbx
-│   └── screenshots/
-│       ├── 00_overview.png
-│       ├── d1_housing_shock.png
-│       ├── d2_value_quadrant.png
-│       └── d3_metro_explorer.png
-└── docs/
-    └── metrics.md
+└── source/
+    └── metro_dataset.csv
 ```
 
 ## 📝 Key Insights
