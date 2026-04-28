@@ -170,6 +170,24 @@ A simple affordability / purchasing power proxy:
 ```text
 Value Index = Real Per Capita Income / RPP All Items * 100
 ```
-..
-..
-TBD
+## 2019 → 2023 Delta Metrics
+
+The project places special emphasis on post-2019 cost changes:
+- `rpp_pct_change`
+- `housing_pct_change`
+- `income_pct_change`
+- `value_pct_change`
+These fields help tell the post-2020 affordability story.
+
+Housing-Driven Flag
+
+A binary classification that identifies metros where housing moved substantially more than overall cost-of-living.
+
+Segment
+
+A quadrant-style metro classification built from yearly medians:
+
+High Income / Low Cost
+High Income / High Cost
+Low Income / Low Cost
+Low Income / High Cost
