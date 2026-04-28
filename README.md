@@ -213,16 +213,15 @@ Low Income / High Cost
     └── metrics.md
 ```
 
-## Key Insights
+## 📝 Key Insights
 
 A few patterns stood out clearly in the analysis:
+- Many of the sharpest metro-level affordability shifts from 2019 to 2023 were housing-driven.
+- Several Florida metros appeared among the strongest value losers, reflecting rising cost pressure without commensurate income support.
+- Some metros improved in value despite housing pressure, suggesting that real income growth was strong enough to offset local cost increases.
+- Relative price declines or slower cost growth versus the U.S. average created major value gains in certain metros, even without extraordinary income growth.
 
-Many of the sharpest metro-level affordability shifts from 2019 to 2023 were housing-driven.
-Several Florida metros appeared among the strongest value losers, reflecting rising cost pressure without commensurate income support.
-Some metros improved in value despite housing pressure, suggesting that real income growth was strong enough to offset local cost increases.
-Relative price declines or slower cost growth versus the U.S. average created major value gains in certain metros, even without extraordinary income growth.
-
-## Example Findings
+## 📝 Example Findings
 # Value Losers
 
 Metros such as:
@@ -247,7 +246,7 @@ Several metros experienced significant housing-driven cost pressure, including:
 # Value Winners
 Certain metros improved in affordability/value despite cost movement, illustrating that income growth can sometimes offset local inflation pressure.
 
-## Notes / Design Decisions
+## 📝 Notes / Design Decisions
 - This final project version intentionally uses metro-ready BEA data only to keep the grain clean and avoid overcomplicating the workflow with county-to-metro crosswalks.
 - Tableau was connected via exported CSV in the final local workflow due environment/tooling constraints.
 - The project is designed as a portfolio-grade analytics artifact, with SQL doing the heavy lifting and Tableau focused on exploration and storytelling.
