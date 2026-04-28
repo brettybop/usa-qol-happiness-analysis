@@ -170,7 +170,7 @@ A simple affordability / purchasing power proxy:
 ```text
 Value Index = Real Per Capita Income / RPP All Items * 100
 ```
-# 2019 → 2023 Delta Metrics
+### 2019 → 2023 Delta Metrics
 
 The project places special emphasis on post-2019 cost changes:
 - `rpp_pct_change`
@@ -179,18 +179,15 @@ The project places special emphasis on post-2019 cost changes:
 - `value_pct_change`
 These fields help tell the post-2020 affordability story.
 
-Housing-Driven Flag
-
+### Housing-Driven Flag
 A binary classification that identifies metros where housing moved substantially more than overall cost-of-living.
 
-Segment
-
+### Segment
 A quadrant-style metro classification built from yearly medians:
-
-High Income / Low Cost
-High Income / High Cost
-Low Income / Low Cost
-Low Income / High Cost
+- High Income / Low Cost
+- High Income / High Cost
+- Low Income / Low Cost
+- Low Income / High Cost
 
 ## 📁 Repository Structure
 ```text
@@ -222,7 +219,7 @@ A few patterns stood out clearly in the analysis:
 - Relative price declines or slower cost growth versus the U.S. average created major value gains in certain metros, even without extraordinary income growth.
 
 ## 📝 Example Findings
-# Value Losers
+### Value Losers
 
 Metros such as:
 - Decatur, AL
@@ -233,7 +230,7 @@ Metros such as:
 
 showed some of the sharpest declines in value from 2019 to 2023.
 
-# Housing Shock Metros
+### Housing Shock Metros
 
 Several metros experienced significant housing-driven cost pressure, including:
 
@@ -243,7 +240,7 @@ Several metros experienced significant housing-driven cost pressure, including:
 - Portland-South Portland, ME
 - Phoenix-Mesa-Chandler, AZ
 
-# Value Winners
+### Value Winners
 Certain metros improved in affordability/value despite cost movement, illustrating that income growth can sometimes offset local inflation pressure.
 
 ## 📝 Notes / Design Decisions
@@ -251,12 +248,12 @@ Certain metros improved in affordability/value despite cost movement, illustrati
 - Tableau was connected via exported CSV in the final local workflow due environment/tooling constraints.
 - The project is designed as a portfolio-grade analytics artifact, with SQL doing the heavy lifting and Tableau focused on exploration and storytelling.
   
-# Limitations
+### Limitations
 RPP is a relative price level index, not a full household budget or nominal price series.
 “Real per capita personal income” is broader than wages alone and includes multiple income sources.
 The Tableau workflow in this version uses an exported dataset rather than a direct SQL connection.
 
-# Future Improvements
+### Future Improvements
 
 Potential next steps for this project:
 - Add an official metro-level unemployment or labor market dataset
