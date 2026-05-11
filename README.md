@@ -8,6 +8,8 @@ This project focuses on three core questions:
 - Where did **purchasing power improve or worsen** as cost-of-living changed?
 - Which metros offered the strongest “value” in **2023** when comparing **real income vs cost-of-living**?
 
+![Dashboard Preview](images/usa_qol_dashboard.png)
+
 ---
 
 ## 🎯 Project Overview
